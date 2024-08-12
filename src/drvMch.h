@@ -276,7 +276,7 @@ extern "C"
         int (*get_fan_level)(MchData mchData, uint8_t* data, uint8_t fruIndex, uint8_t* level);
         int (*set_fan_level)(MchData mchData, uint8_t* data, uint8_t fruIndex, uint8_t level);
         int (*get_power_level)(MchData mchData, uint8_t* data, uint8_t fruIndex, uint8_t parm);
-    } * MchCb;
+    }* MchCb;
 
 #ifdef __cplusplus
 };
